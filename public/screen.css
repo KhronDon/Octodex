@@ -6,3 +6,44 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+
+section.header {display: flex;
+flex-direction: row;
+background-color: lightgrey;
+justify-content: space-between;
+font: 13px helvetica,arial,freesans,clean,sans-serif;
+}
+
+section.header a {
+  text-decoration: none;
+  color: black;
+}
+.links ul li {
+  padding: 1em;
+}
+
+.logo {
+  padding-top: 1.5em;
+}
+
+.links ul:first-child {
+  flex: 1;
+  list-style: none;
+  display: flex;
+}
+
+.images ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.images ul li {
+  margin: 1em;
+}
+
+p {
+  text-align: center;
+}
